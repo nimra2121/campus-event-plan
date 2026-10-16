@@ -118,4 +118,4 @@ Campus Event Planner is a colourful, student-friendly website for exploring and 
 4. Run `npm run dev`.
 5. Open the local URL shown in the terminal.
 
-This project demonstrates Git branching and merge workflows.
+This project demonstrates Git branching, merging, and version tracking.
