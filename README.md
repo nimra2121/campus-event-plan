@@ -109,3 +109,11 @@ Campus Event Planner is a colourful, student-friendly website for exploring and 
 - React
 - Vite
 - Tailwind CSS
+
+### How to Run the Project
+
+1. Install Node.js.
+2. Open the project folder in the terminal.
+3. Run `npm install`.
+4. Run `npm run dev`.
+5. Open the local URL shown in the terminal.
