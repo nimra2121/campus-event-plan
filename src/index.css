@@ -1,1 +1,14 @@
 @import "tailwindcss";
+/* Campus Event Planner - colourful styling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fff9f0;
+}
+
+::selection {
+  background-color: #dcd0ff;
+  color: #352044;
+}
