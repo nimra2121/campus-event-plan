@@ -1,0 +1,6 @@
+{
+  "name": "Campus Event Planner",
+  "description": "A beginner-friendly campus event planner website built with HTML, CSS, and vanilla JavaScript for college students.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

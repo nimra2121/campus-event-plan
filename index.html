@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campus Event Planner ✿ Your Campus, Your Moments</title>
+    <meta name="description" content="A dreamy, Pinterest-inspired campus event planner to explore college activities, workshops, and gatherings." />
+    <meta property="og:title" content="Campus Event Planner ✿ Your Campus, Your Moments" />
+    <meta property="og:description" content="A dreamy, Pinterest-inspired campus event planner to explore college activities, workshops, and gatherings." />
+    <meta property="og:type" content="website" />
+    
+    <!-- Google Fonts: Editorial Serif (Fraunces) & Modern Sans (Plus Jakarta Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Soft Pastel Background Aura Blobs -->
+    <div class="pastel-aura aura-pink" aria-hidden="true"></div>
+    <div class="pastel-aura aura-lavender" aria-hidden="true"></div>
+    <div class="pastel-aura aura-mint" aria-hidden="true"></div>
+    <div class="pastel-aura aura-yellow" aria-hidden="true"></div>
+
+    <!-- Navigation Bar -->
+    <header class="navbar-wrapper">
+      <nav class="navbar" aria-label="Main Navigation">
+        <a href="#hero" class="brand-logo">
+          <span class="brand-flower" aria-hidden="true">✿</span>
+          <span class="brand-text">campus<strong>moments</strong></span>
+        </a>
+
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+
+        <div class="nav-menu" id="navMenu">
+          <ul class="nav-links">
+            <li><a href="#welcome" class="nav-link">Moodboard</a></li>
+            <li><a href="#events" class="nav-link">Events</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+          <a href="#events" class="btn-cute nav-cta">Explore Events ✧</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <!-- Pinterest-Inspired 3D Hero Section -->
+      <section class="hero-section" id="hero">
+        <div class="container hero-container">
+          <div class="hero-text-block">
+            <div class="hero-tag">
+              <span class="sparkle-icon" aria-hidden="true">✧</span>
+              <span>Semester 2026 Curated Moodboard</span>
+            </div>
+            <h1 class="hero-title">
+              Your Campus,<br />
+              <span class="script-highlight">Your Moments</span> <span class="title-flower">✿</span>
+            </h1>
+            <p class="hero-subtitle">
+              Discover cozy workshops, bustling night markets, competitive hackathons, and starry lawn concerts. 
+              Collect memories and never miss a vibrant campus gathering.
+            </p>
+            <div class="hero-actions">
+              <a href="#events" class="btn-cute">Explore Events ✿</a>
+              <a href="#welcome" class="btn-pill">Read Guide ✧</a>
+            </div>
+          </div>
+
+          <!-- Layered 3D Floating Moodboard Composition -->
+          <div class="hero-3d-stage" id="heroStage" aria-hidden="true">
+            <div class="moodboard-scene">
+              <!-- Floating Polaroid 1: Featured Highlight -->
+              <div class="polaroid-card polaroid-main floating-3d" data-speed="2">
+                <div class="washi-tape washi-top"></div>
+                <div class="polaroid-media">
+                  <div class="polaroid-art art-sunset">
+                    <span class="floating-emoji">🌸</span>
+                    <span class="art-tag">Campus Fair</span>
+                  </div>
+                </div>
+                <div class="polaroid-caption">
+                  <span class="caption-date">October 24 &middot; Central Quad</span>
+                  <h4>Spring Blossom Fest</h4>
+                </div>
+              </div>
+
+              <!-- Floating Polaroid 2: Music & Culture -->
+              <div class="polaroid-card polaroid-sub floating-3d" data-speed="3.5">
+                <div class="washi-tape washi-angle"></div>
+                <div class="polaroid-art art-lavender">
+                  <span class="floating-emoji">🎻</span>
+                  <span class="art-tag">Acoustic</span>
+                </div>
+                <div class="polaroid-caption">
+                  <span class="caption-date">Nov 18 &middot; Amphitheater</span>
+                  <h4>Starlight Gala</h4>
+                </div>
+              </div>
+
+              <!-- 3D Decorative Floating Stationery Objects -->
+              <div class="floating-sticker sticker-flower floating-3d" data-speed="4">
+                <span class="sticker-content">✿</span>
+              </div>
+              <div class="floating-sticker sticker-star floating-3d" data-speed="5">
+                <span class="sticker-content">★</span>
+              </div>
+              <div class="floating-sticker sticker-heart floating-3d" data-speed="3">
+                <span class="sticker-content">♡</span>
+              </div>
+              <div class="floating-sticker sticker-badge floating-3d" data-speed="2.5">
+                <span>NEW '26</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Welcome & Scrapbook Moodboard Section (Preserved Functionality) -->
+      <section class="welcome-section" id="welcome">
+        <div class="container">
+          <div class="scrapbook-card">
+            <div class="washi-tape washi-center"></div>
+            <div class="scrapbook-header">
+              <div>
+                <span class="mini-kicker">✿ Student Life Digest</span>
+                <h2>Welcome to Your Campus Event Planner</h2>
+                <p class="section-lead">
+                  A cheerful, student-crafted space to discover upcoming college activities, workshops, 
+                  cultural showcases, tech symposiums, and sports tournaments.
+                </p>
+              </div>
+              <div class="status-stamp">
+                <span class="stamp-icon">✓</span>
+                <span>Active &bull; Updated Daily</span>
+              </div>
+            </div>
+
+            <div class="scrapbook-features">
+              <div class="feature-box feature-pink">
+                <div class="box-icon">💌</div>
+                <h3>RSVP &amp; Save</h3>
+                <p>Bookmark your favorite gatherings and save spots with one click.</p>
+              </div>
+              <div class="feature-box feature-mint">
+                <div class="box-icon">🎨</div>
+                <h3>Interactive 3D Tilt</h3>
+                <p>Hover and guide event cards with soft perspective tilt and depth shadows.</p>
+              </div>
+              <div class="feature-box feature-yellow">
+                <div class="box-icon">🏷️</div>
+                <h3>Category Filters</h3>
+                <p>Easily switch between Tech, Arts, Sports, and Campus Life.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pinterest-Inspired Asymmetrical Events Grid -->
+      <section class="events-section" id="events">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <span class="mini-kicker">✧ Hand-picked For You</span>
+              <h2 class="section-title">Upcoming Campus Gatherings</h2>
+              <p class="section-subtitle">Move your cursor over any card to experience the smooth 3D perspective tilt.</p>
+            </div>
+
+            <!-- Category Filter Tabs -->
+            <div class="filter-pills" id="categoryFilters" role="tablist" aria-label="Event category filters">
+              <button class="pill-btn active" data-category="all" role="tab" aria-selected="true">All Gatherings ✿</button>
+              <button class="pill-btn" data-category="tech" role="tab" aria-selected="false">Technology 💻</button>
+              <button class="pill-btn" data-category="cultural" role="tab" aria-selected="false">Culture &amp; Arts 🎨</button>
+              <button class="pill-btn" data-category="sports" role="tab" aria-selected="false">Athletics ⚽</button>
+            </div>
+          </div>
+
+          <!-- Asymmetrical / Moodboard Event Cards -->
+          <div class="events-grid" id="eventsGrid">
+            <!-- Event Card 1 (Blush Pink Theme) -->
+            <article class="event-card card-pink tilt-card tilt-left" data-category="tech" data-tilt>
+              <div class="card-inner">
+                <div class="washi-tape washi-card"></div>
+                <div class="card-top">
+                  <span class="category-stamp">Technology &bull; Workshop</span>
+                  <span class="corner-flower">✿</span>
+                </div>
+                <div class="card-illustration art-symposium">
+                  <span class="art-emoji">🤖</span>
+                  <span class="art-floating-text">Lab 402</span>
+                </div>
+                <div class="card-body">
+                  <div class="meta-row">
+                    <span class="date-badge">Nov 12, 2026</span>
+                    <span class="time-text">10:00 AM - 4:00 PM</span>
+                  </div>
+                  <h3 class="event-title">Annual AI &amp; Robotics Symposium</h3>
+                  <p class="event-desc">
+                    Keynote lectures from industry researchers, interactive robot showcases, 
+                    and live demonstrations of generative AI applications.
+                  </p>
+                  <div class="card-footer">
+                    <span class="event-venue">📍 Science &amp; Engineering Center</span>
+                    <button class="btn-card-action" data-event-id="1">View Details ✧</button>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Event Card 2 (Lavender Theme) -->
+            <article class="event-card card-lavender tilt-card tilt-right" data-category="cultural" data-tilt>
+              <div class="card-inner">
+                <div class="washi-tape washi-card-alt"></div>
+                <div class="card-top">
+                  <span class="category-stamp">Arts &amp; Culture</span>
+                  <span class="corner-flower">★</span>
+                </div>
+                <div class="card-illustration art-gala">
+                  <span class="art-emoji">🌙</span>
+                  <span class="art-floating-text">Fairy Lights</span>
+                </div>
+                <div class="card-body">
+                  <div class="meta-row">
+                    <span class="date-badge">Nov 18, 2026</span>
+                    <span class="time-text">6:00 PM - 10:00 PM</span>
+                  </div>
+                  <h3 class="event-title">Starlight Symphony &amp; Art Gala</h3>
+                  <p class="event-desc">
+                    An evening of live orchestral performances, student painting exhibitions, 
+                    sculpture displays, and warm cider under twinkling lights.
+                  </p>
+                  <div class="card-footer">
+                    <span class="event-venue">📍 Campus Amphitheater</span>
+                    <button class="btn-card-action" data-event-id="2">View Details ✧</button>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Event Card 3 (Mint Green Theme) -->
+            <article class="event-card card-mint tilt-card tilt-straight" data-category="sports" data-tilt>
+              <div class="card-inner">
+                <div class="washi-tape washi-card"></div>
+                <div class="card-top">
+                  <span class="category-stamp">Athletics &bull; Cup</span>
+                  <span class="corner-flower">⚡</span>
+                </div>
+                <div class="card-illustration art-futsal">
+                  <span class="art-emoji">🏆</span>
+                  <span class="art-floating-text">Tournament</span>
+                </div>
+                <div class="card-body">
+                  <div class="meta-row">
+                    <span class="date-badge">Nov 22, 2026</span>
+                    <span class="time-text">1:00 PM - 7:00 PM</span>
+                  </div>
+                  <h3 class="event-title">Inter-Collegiate Futsal Championship</h3>
+                  <p class="event-desc">
+                    Cheer on university teams in this fast-paced indoor tournament. 
+                    Includes open student shoot-outs, trophies, and food trucks.
+                  </p>
+                  <div class="card-footer">
+                    <span class="event-venue">📍 Sports Complex Arena</span>
+                    <button class="btn-card-action" data-event-id="3">View Details ✧</button>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Event Card 4 (Butter Yellow Theme) -->
+            <article class="event-card card-yellow tilt-card tilt-left" data-category="tech" data-tilt>
+              <div class="card-inner">
+                <div class="washi-tape washi-card-alt"></div>
+                <div class="card-top">
+                  <span class="category-stamp">Career &bull; Networking</span>
+                  <span class="corner-flower">♡</span>
+                </div>
+                <div class="card-illustration art-career">
+                  <span class="art-emoji">🚀</span>
+                  <span class="art-floating-text">Coffee &amp; Mentorship</span>
+                </div>
+                <div class="card-body">
+                  <div class="meta-row">
+                    <span class="date-badge">Dec 04, 2026</span>
+                    <span class="time-text">11:00 AM - 5:00 PM</span>
+                  </div>
+                  <h3 class="event-title">Alumni Startup &amp; Career Fair</h3>
+                  <p class="event-desc">
+                    Meet alumni founders, explore internship opportunities, 
+                    get your resume reviewed, and join speed networking sessions.
+                  </p>
+                  <div class="card-footer">
+                    <span class="event-venue">📍 Student Union Great Hall</span>
+                    <button class="btn-card-action" data-event-id="4">View Details ✧</button>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Polished About Section -->
+      <section class="about-section" id="about">
+        <div class="container">
+          <div class="about-card">
+            <div class="about-grid">
+              <div class="about-content">
+                <span class="mini-kicker">✿ Behind the Project</span>
+                <h2 class="about-title">Crafted for Student Life</h2>
+                <p>
+                  We believe college memories are made in the moments between lectures — an acoustic lawn jam, 
+                  a midnight hackathon snack run, or an art exhibition you stumbled upon with roommates.
+                </p>
+                <p>
+                  <strong>Campus Moments</strong> brings together club organizers, student unions, and athletic teams 
+                  onto a single, delightfully designed bulletin board.
+                </p>
+                <div class="about-stats">
+                  <div class="stat-pill">
+                    <span class="stat-num">40+</span>
+                    <span class="stat-txt">Student Clubs</span>
+                  </div>
+                  <div class="stat-pill">
+                    <span class="stat-num">100%</span>
+                    <span class="stat-txt">Vanilla HTML/CSS/JS</span>
+                  </div>
+                  <div class="stat-pill">
+                    <span class="stat-num">Free</span>
+                    <span class="stat-txt">For All Students</span>
+                  </div>
+                </div>
+              </div>
+              <div class="about-visual">
+                <div class="scrapbook-badge-card">
+                  <div class="washi-tape washi-top"></div>
+                  <span class="badge-flower">✿</span>
+                  <h3>"Make every semester an adventure."</h3>
+                  <p class="badge-author">— Student Affairs &amp; Activities Council</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Polished Contact Section -->
+      <section class="contact-section" id="contact">
+        <div class="container">
+          <div class="contact-card">
+            <div class="washi-tape washi-center"></div>
+            <div class="contact-header">
+              <span class="mini-kicker">💌 Get in Touch</span>
+              <h2>Host or Suggest a Gathering</h2>
+              <p>Have an event to announce or want your student society featured? Reach out to our campus liaisons!</p>
+            </div>
+            <form class="contact-form" id="contactForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="studentName">Your Name</label>
+                  <input type="text" id="studentName" placeholder="e.g. Maya Chen" required />
+                </div>
+                <div class="form-group">
+                  <label for="studentEmail">Campus Email</label>
+                  <input type="email" id="studentEmail" placeholder="e.g. maya@college.edu" required />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="eventDetails">Event Name &amp; Brief Idea</label>
+                <textarea id="eventDetails" rows="3" placeholder="Tell us about the event date, club, and what students will enjoy..." required></textarea>
+              </div>
+              <button type="submit" class="btn-cute form-submit">Send Proposal ✿</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Event Detail Modal Dialog (Styled as stationery note) -->
+    <div class="modal-backdrop" id="eventModal" aria-hidden="true" role="dialog" aria-modal="true">
+      <div class="modal-card">
+        <div class="washi-tape washi-center"></div>
+        <button class="modal-close" id="modalCloseBtn" aria-label="Close dialog">&times;</button>
+        <span class="modal-tag" id="modalBadge">Technology</span>
+        <h3 id="modalTitle">Event Title</h3>
+        <p class="modal-meta" id="modalMeta">Date &amp; Venue</p>
+        <p class="modal-desc" id="modalDesc">Detailed event information goes here.</p>
+        <div class="modal-actions">
+          <button class="btn-cute" id="modalRsvpBtn">RSVP &bull; Add to My Moodboard ♡</button>
+          <button class="btn-pill" id="modalDismissBtn">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Matching Pinterest Aesthetic Footer -->
+    <footer class="footer-wrapper">
+      <div class="container footer-content">
+        <div class="footer-left">
+          <a href="#hero" class="brand-logo footer-brand">
+            <span class="brand-flower" aria-hidden="true">✿</span>
+            <span class="brand-text">campus<strong>moments</strong></span>
+          </a>
+          <p class="footer-tagline">Crafted with warm memories, pastel stationery dreams, and pure vanilla code.</p>
+        </div>
+        <div class="footer-center">
+          <ul class="footer-links">
+            <li><a href="#hero">Top</a></li>
+            <li><a href="#welcome">Moodboard</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-right">
+          <p>&copy; 2026 Campus Event Planner &bull; College Git &amp; Version Control Practical</p>
+          <p class="footer-subtext">No external frameworks &bull; CSS 3D Transforms &bull; Accessible Design</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

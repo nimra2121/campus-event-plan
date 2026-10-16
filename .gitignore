@@ -1,0 +1,26 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Code Editor & IDE Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Log & Temporary Files
+*.log
+*.tmp
+*.swp
+*~
+
+# Node & Package Managers (if running with local dev servers or tools)
+node_modules/
+package-lock.json
+dist/
+.cache/
+
+# Environment Variables
+.env
+.env.local
