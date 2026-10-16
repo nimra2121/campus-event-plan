@@ -12,3 +12,9 @@ body {
   background-color: #dcd0ff;
   color: #352044;
 }
+
+/* Consistent focus visibility for keyboard users */
+:focus-visible {
+  outline: 3px solid #ff9d83;
+  outline-offset: 3px;
+}
