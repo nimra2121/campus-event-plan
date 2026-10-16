@@ -96,3 +96,16 @@ git checkout -b feature/event-search
 git checkout main
 git merge feature/event-search
 ```
+## Project Overview
+
+Campus Event Planner is a colourful, student-friendly website for exploring and organising campus events.
+
+### Features
+- Browse campus event information
+- View event details in a modern, responsive layout
+- Enjoy a bright, Pinterest-inspired design
+
+### Technology
+- React
+- Vite
+- Tailwind CSS
